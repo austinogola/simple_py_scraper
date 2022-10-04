@@ -23,7 +23,7 @@ def doIt():
 
         if(fxn=="excel"):
             df=pd.DataFrame(data)
-            df.to_excel('bigup.xlsx')
+            # df.to_excel('bigup.xlsx')
             print('reading this')
             return (data)
 
@@ -33,4 +33,4 @@ def doIt():
     return (url)
 
 
-app.run(port=3000)
+# app.run(port=3000)
